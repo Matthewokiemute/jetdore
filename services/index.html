@@ -114,7 +114,7 @@
                 <ul
                   class="breadcrumb_nav unordered_list justify-content-lg-end justify-content-center"
                 >
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="/">Home</a></li>
                   <li>All Services</li>
                 </ul>
               </div>
@@ -161,7 +161,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request a Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -183,7 +183,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request a Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -205,7 +205,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request a Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -227,7 +227,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request a Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -249,7 +249,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request a Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -271,7 +271,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request a Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -363,8 +363,8 @@
                     </div>
                   </div>
                   <div class="btn_wrap pb-0">
-                    <a class="btn btn-primary" href="contact.html"
-                      ><span class="btn_text" data-text="Get A Consultation"
+                    <a class="btn btn-primary" href="#request-form"
+                      ><span class="btn_text" data-text="Request A Quote"
                         >Request a Quote </span
                       ><span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -432,7 +432,7 @@
         </section>
 
         <!-- FORM SECTION -->
-        <section class="consultation_section section_space_lg">
+        <section id="request-form" class="consultation_section section_space_lg">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6">
@@ -595,8 +595,8 @@
           </div>
           <div class="copyright_widget text-center">
             <p class="copyright_text m-0">
-              Jetdore © <b>2024.</b> All rights reserved
-              Copyrights 2024
+              Jetdore LTD, All rights reserved
+              Copyrights <span id="currentYear"></span>.
             </p>
           </div>
         </div>
@@ -622,9 +622,14 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
+    
       gtag("config", "G-8CZB4YJTLB");
+    
+      function getCurrentYear() {
+        return new Date().getFullYear();
+      }
+    
+      document.getElementById("currentYear").textContent = getCurrentYear();
     </script>
   </body>
-  <!-- Mirrored from html.merku.love/talking-minds/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Sep 2024 21:03:28 GMT -->
 </html>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Mirrored from html.merku.love/talking-minds/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Sep 2024 21:03:03 GMT -->
   <head>
     <meta charset="utf-8" />
     <meta
@@ -201,7 +200,7 @@
                     </div>
                   </div>
                   <div class="btn_wrap pb-0">
-                    <a class="btn btn-primary" href="about.html"
+                    <a class="btn btn-primary" href="/services/index.html"
                       ><span class="btn_text" data-text="Learn More"
                         >Learn More </span
                       ><span class="btn_icon"
@@ -432,7 +431,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -454,7 +453,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -476,7 +475,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -498,7 +497,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -520,7 +519,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -542,7 +541,7 @@
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusant doloremqe laudantium.
                     </p>
-                    <a class="btn-link" href="service_details.html"
+                    <a class="btn-link" href="#request-form"
                       ><span class="btn_text">Request Service</span>
                       <span class="btn_icon"
                         ><i class="fa-solid fa-arrow-up-right"></i></span
@@ -804,8 +803,8 @@
           </div>
           <div class="copyright_widget text-center">
             <p class="copyright_text m-0">
-              Jetdore © <b>2024.</b> All rights reserved
-              Copyrights 2024
+              Jetdore LTD, All rights reserved
+              Copyrights <span id="currentYear"></span>.
             </p>
           </div>
         </div>
@@ -831,9 +830,14 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
+    
       gtag("config", "G-8CZB4YJTLB");
+    
+      function getCurrentYear() {
+        return new Date().getFullYear();
+      }
+    
+      document.getElementById("currentYear").textContent = getCurrentYear();
     </script>
   </body>
-  <!-- Mirrored from html.merku.love/talking-minds/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Sep 2024 21:03:19 GMT -->
 </html>

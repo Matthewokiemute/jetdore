@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Mirrored from html.merku.love/talking-minds/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Sep 2024 21:03:30 GMT -->
   <head>
     <meta charset="utf-8" />
     <meta
@@ -9,11 +8,11 @@
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-      Team of Professionals - Talking Minds – Psychotherapist Site Template
+      Team of Professionals - Cleaning service at its peak.
     </title>
     <link
       rel="shortcut icon"
-      href="../assets/images/site_logo/favourite_icon.svg"
+      href="../assets/images/site_logo/favourite_icon.png"
     />
     <link
       rel="stylesheet"
@@ -446,8 +445,8 @@
           </div>
           <div class="copyright_widget text-center">
             <p class="copyright_text m-0">
-              Jetdore © <b>2024.</b> All rights reserved
-              Copyrights 2024
+              Jetdore LTD, All rights reserved
+              Copyrights <span id="currentYear"></span>.
             </p>
           </div>
         </div>
@@ -473,9 +472,14 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
+    
       gtag("config", "G-8CZB4YJTLB");
+    
+      function getCurrentYear() {
+        return new Date().getFullYear();
+      }
+    
+      document.getElementById("currentYear").textContent = getCurrentYear();
     </script>
   </body>
-  <!-- Mirrored from html.merku.love/talking-minds/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Sep 2024 21:03:32 GMT -->
 </html>
