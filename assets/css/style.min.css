@@ -5,9 +5,9 @@
   --bs-font-body: "Plus Jakarta Sans", sans-serif;
   --bs-font-heading: "Plus Jakarta Sans", sans-serif;
   --bs-body-font-weight: 400;
-  --bs-body-font-size: 18px;
+  --bs-body-font-size: 16px;
   --bs-body-line-height: 28px;
-  --bs-body-font-size-md: 20px;
+  --bs-body-font-size-md: 16px;
   --bs-body-line-height-md: 30px;
   --bs-body-color: #51565d;
   --bs-body-color-rgb: 81, 86, 93;
@@ -1523,7 +1523,7 @@ button[class*="-dark"]:hover {
   background-color: var(--bs-primary);
 }
 .hero_section_counter .counter_description {
-  font-size: 18px;
+  font-size: 16px;
   max-width: 160px;
   line-height: 22px;
 }
@@ -1967,13 +1967,14 @@ button[class*="-dark"]:hover {
   border-top-right-radius: 50px;
 }
 .service_item .item_title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 30px;
   margin-bottom: 20px;
 }
 .service_item p {
   margin-bottom: 30px;
+  height: 100px;
 }
 .service_item .btn span {
   color: #fff;
