@@ -167,8 +167,22 @@
                 </div>
               </div>
               <div class="row justify-content-lg-between">
-                <div class="col-lg-6 mb-lg-0 mb-4">
+                <form class="col-lg-6 mb-lg-0 mb-4">
                   <div class="row">
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="af31a757-669b-4999-aec9-a991d6e96961"
+                    />
+                    <input
+                      type="hidden"
+                      name="subject"
+                      value="Contact Form Request"
+                    />
+                    <div class="mb-3">
+                      <div id="success-message" class="d-none"></div>
+                      <div id="error-message" class="d-none"></div>
+                    </div>
                     <div class="col-md-6">
                       <div class="form-group">
                         <label for="input_name">Name</label>
@@ -212,7 +226,8 @@
                       </button>
                     </div>
                   </div>
-                </div>
+                  
+                </form>
                 <div class="col-lg-6">
                   <div class="ps-lg-4">
                     <div class="row mb-5">
@@ -394,6 +409,7 @@
     <script src="../assets/js/appear.min.js"></script>
     <script src="../assets/js/odometer.min.js"></script>
     <script src="../assets/js/main.min.js"></script>
+    <script src="../assets/js/form.min.js"></script>
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-8CZB4YJTLB"

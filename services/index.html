@@ -469,11 +469,27 @@
                   <div class="image_shape bg_secondary_light"></div>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <form class="col-lg-6" id="service-form"
+              onsubmit="handleFormSubmit(event)">
+
                 <div class="section_heading">
                   <h2 class="section_heading_text mb-0">Request a Quote</h2>
                 </div>
                 <div class="row">
+                  <input
+                      type="hidden"
+                      name="access_key"
+                      value="af31a757-669b-4999-aec9-a991d6e96961"
+                    />
+                    <input
+                      type="hidden"
+                      name="subject"
+                      value="New Quote Request"
+                    />
+                    <div class="mb-3">
+                      <div id="success-message" class="d-none"></div>
+                      <div id="error-message" class="d-none"></div>
+                    </div>
                   <div class="col-md-6">
                     <div class="form-group">
                       <label for="input_name">Name</label>
@@ -558,7 +574,9 @@
                     ></span>
                   </button>
                 </div>
-              </div>
+                <div id="success-message" class="d-none text-success"></div>
+                  <div id="error-message" class="d-none text-danger"></div>
+              </form>
             </div>
           </div>
         </section>
@@ -657,6 +675,7 @@
     <script src="../assets/js/appear.min.js"></script>
     <script src="../assets/js/odometer.min.js"></script>
     <script src="../assets/js/main.min.js"></script>
+    <script src="../assets/js/form.min.js"></script>
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-8CZB4YJTLB"
