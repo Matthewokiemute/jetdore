@@ -2484,13 +2484,15 @@ button[class*="-dark"]:hover {
 }
 .testimonial_item {
   position: relative;
-  padding: 60px 60px 53px;
+  padding: 30px 30px 53px;
   -webkit-box-shadow: var(--bs-box-shadow);
   box-shadow: var(--bs-box-shadow);
   -webkit-transition: var(--bs-transition);
   transition: var(--bs-transition);
   background-color: var(--bs-white);
   border-radius: var(--bs-border-radius);
+  height: 240px;
+  /* height: 100%; */
 }
 .testimonial_item:hover {
   -webkit-transform: translateY(-6px);
@@ -2500,6 +2502,9 @@ button[class*="-dark"]:hover {
 }
 .testimonial_item .author_box {
   margin-bottom: 20px;
+}
+.testimonial_item p {
+  margin-top: 20px;
 }
 .testimonial_item .rating_star {
   top: 80px;
@@ -3103,7 +3108,7 @@ blockquote cite {
     max-width: 270px;
   }
   .testimonial_item {
-    padding: 40px 40px 43px;
+    padding: 30px 30px 43px;
   }
   .testimonial_item .rating_star li:not(:last-child) {
     margin-right: 5px;
@@ -3506,7 +3511,7 @@ blockquote cite {
     top: 80px;
   }
   .testimonial_item {
-    padding: 50px 30px 33px;
+    padding: 36px 30px 33px;
   }
   .testimonial_item .rating_star {
     top: 20px;
