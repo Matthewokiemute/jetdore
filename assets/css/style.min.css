@@ -3679,3 +3679,20 @@ blockquote cite {
 .pt-20 {
     padding-top: 120px;
 }
+
+#success-message {
+  background-color: rgb(167 243 208);
+  padding: 10px;
+  border-radius: 8px;
+  color: rgb(2 44 34);
+}
+#error-message {
+  background-color: rgb(254 202 202);
+  padding: 10px;
+  border-radius: 8px;
+  color: rgb(76 5 25);
+}
+
+.d-none{
+  display: none;
+}
