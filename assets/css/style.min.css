@@ -1930,7 +1930,7 @@ button[class*="-dark"]:hover {
 }
 .service_item {
   max-width: 400px;
-  height: 550px;
+  height: 530px;
   padding: 0px;
   -webkit-box-shadow: var(--bs-box-shadow);
   box-shadow: var(--bs-box-shadow);
@@ -1974,7 +1974,7 @@ button[class*="-dark"]:hover {
   margin-bottom: 20px;
 }
 .service_item p {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   min-height: 100px;
 }
 .service_item .btn span {
