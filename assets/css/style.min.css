@@ -3108,7 +3108,8 @@ blockquote cite {
     max-width: 270px;
   }
   .testimonial_item {
-    padding: 30px 30px 43px;
+    padding: 35px 30px 43px;
+    height: 300px;
   }
   .testimonial_item .rating_star li:not(:last-child) {
     margin-right: 5px;
@@ -3512,6 +3513,7 @@ blockquote cite {
   }
   .testimonial_item {
     padding: 36px 30px 33px;
+    height: 300px;
   }
   .testimonial_item .rating_star {
     top: 20px;

@@ -355,22 +355,26 @@
                   <ul class="unordered_list">
                     <li>
                       <img
-                        src="../assets/images/about/about_image_6-min.png"
+                        src="../assets/images/process/p1.jpg"
                         alt=" Jetdore"
+                        style="border-top-left-radius: 80px;"
                       />
                       <img
-                        src="../assets/images/about/about_image_7-min.png"
+                        src="../assets/images/process/p3.jpeg"
                         alt=" Jetdore"
+                        style="border-bottom-left-radius: 60px;"
                       />
                     </li>
                     <li>
                       <img
-                        src="../assets/images/about/about_image_8-min.png"
+                        src="../assets/images/process/p2.jpeg"
                         alt=" Jetdore"
+                        style="border-top-right-radius: 60px;"
                       />
                       <img
-                        src="../assets/images/about/about_image_9-min.png"
+                        src="../assets/images/process/p4.jpg"
                         alt=" Jetdore"
+                        style="border-bottom-right-radius: 60px;"
                       />
                     </li>
                   </ul>
@@ -456,7 +460,7 @@
                       creating a professional environment for employees and
                       clients alike.
                     </p>
-                    <a class="btn btn-primary" href="services/"
+                    <a class="btn btn-primary" href="#request-form"
                       ><span class="btn_text" data-text="Request Service"
                         >Request Service</span
                       ></a
@@ -480,7 +484,7 @@
                       We provide efficient, thorough cleaning that meets the
                       highest standards.
                     </p>
-                    <a class="btn btn-primary" href="services/"
+                    <a class="btn btn-primary" href="#request-form"
                       ><span class="btn_text" data-text="Request Service"
                         >Request Service</span
                       ></a
@@ -503,7 +507,7 @@
                       cleaning services that guarantee a spotless handover,
                       ensuring you leave the property in perfect condition.
                     </p>
-                    <a class="btn btn-primary" href="services/"
+                    <a class="btn btn-primary" href="#request-form"
                       ><span class="btn_text" data-text="Request Service"
                         >Request Service</span
                       ></a
@@ -527,7 +531,7 @@
                       post-renovation, seasonal cleaning, or when you need a
                       fresh start.
                     </p>
-                    <a class="btn btn-primary" href="services/"
+                    <a class="btn btn-primary" href="#request-form"
                       ><span class="btn_text" data-text="Request Service"
                         >Request Service</span
                       ></a
@@ -550,7 +554,7 @@
                       and welcoming, leaving you with more time to relax and
                       enjoy your space.
                     </p>
-                    <a class="btn btn-primary" href="services/"
+                    <a class="btn btn-primary" href="#request-form"
                       ><span class="btn_text" data-text="Request Service"
                         >Request Service</span
                       ></a
@@ -574,7 +578,7 @@
                       remove dirt, stains, and allergens from sofas, chairs, and
                       more.
                     </p>
-                    <a class="btn btn-primary" href="services/"
+                    <a class="btn btn-primary" href="#request-form"
                       ><span class="btn_text" data-text="Request Service"
                         >Request Service</span
                       ></a
@@ -598,7 +602,7 @@
         <section class="gallery_section section_space_lg pb-0">
           <div class="container">
             <div class="section_heading text-center">
-              <h2 class="section_heading_text">Gallery of works</h2>
+              <h2 class="section_heading_text">The Jetdore Touch</h2>
               <p class="section_heading_description mb-0">
                 Here are a few images of jobs that we've done in the past.
               </p>
@@ -616,9 +620,9 @@
               <div class="col-lg-4 col-md-6 col-sm-6">
                 <a
                   class="gallery_item popup_image"
-                  href="../assets/images/services/s3.jpg"
+                  href="../assets/images/services/s2.jpg"
                   ><img
-                    src="../assets/images/services/s3.jpg"
+                    src="../assets/images/services/s2.jpg"
                     alt=" Jetdore"
                 /></a>
               </div>
@@ -652,9 +656,9 @@
               <div class="col-lg-4 col-md-6 col-sm-6">
                 <a
                   class="gallery_item popup_image"
-                  href="../assets/images/services/s5.jpg"
+                  href="../assets/images/services/s10.jpg"
                   ><img
-                    src="../assets/images/services/s5.jpg"
+                    src="../assets/images/services/s10.jpg"
                     alt=" Jetdore"
                 /></a>
               </div>
@@ -709,6 +713,20 @@
                           type="text"
                           name="name"
                           placeholder="Your Name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="input_email">Email Address</label>
+                        <input
+                          id="input_email"
+                          class="form-control"
+                          type="email"
+                          name="email"
+                          placeholder="Email Address"
+                          required
                         />
                       </div>
                     </div>
@@ -721,9 +739,11 @@
                           type="tel"
                           name="phone"
                           placeholder="Mobile phone number"
+                          required
                         />
                       </div>
                     </div>
+                    
                     <div class="col-md-6">
                       <div class="form-group">
                         <label for="select_service">Select Service</label>
@@ -731,6 +751,7 @@
                           id="select_service"
                           class="form-select"
                           aria-label="Service Select Options"
+                          required
                         >
                           <option selected="selected">Deep cleaning</option>
                           <option value="Commercial cleaning">
@@ -762,6 +783,7 @@
                           class="form-control"
                           type="date"
                           name="date"
+                          required
                         />
                       </div>
                     </div>
@@ -773,6 +795,7 @@
                           class="form-control"
                           name="comment"
                           placeholder="Your message"
+                          required
                         ></textarea>
                       </div>
                     </div>
