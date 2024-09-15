@@ -473,7 +473,7 @@
               onsubmit="handleFormSubmit(event)">
 
                 <div class="section_heading">
-                  <h2 class="section_heading_text mb-0">Request a Quote</h2>
+                  <h2 class="section_heading_text mb-0">Request a Service</h2>
                 </div>
                 <div class="row">
                   <input
@@ -516,13 +516,14 @@
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <label for="select_service">Select Service</label>
+                      <label for="select_service">Select a service</label>
                       <select
                         id="select_service"
                         class="form-select"
                         aria-label="Service Select Options"
                       >
-                        <option selected="selected">Deep cleaning</option>
+                      <option value="General inquiry">General inquiry</option>
+                        <option>Deep cleaning</option>
                         <option value="Commercial cleaning">
                           Commercial cleaning
                         </option>
@@ -538,7 +539,7 @@
                         <option value="Logistics & Merchandise cleaning">
                           Logistics & Merchandise cleaning
                         </option>
-                        <option value="General inquiry">General inquiry</option>
+                      
                       </select>
                     </div>
                   </div>
