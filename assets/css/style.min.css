@@ -3703,3 +3703,11 @@ blockquote cite {
 .d-none{
   display: none;
 }
+
+.gap-20 {
+  gap: 20;
+}
+
+.pb-bottom {
+  padding-bottom: 140px;
+}
